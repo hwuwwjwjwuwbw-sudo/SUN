@@ -1321,7 +1321,7 @@ function applySavedData(){
   if(saved.discoveryText) document.getElementById("discoveryText").textContent = saved.discoveryText;
   if(saved.finalMessage) document.getElementById("finalMessage").textContent = saved.finalMessage;
 
-  if(Array.isArray(saved.flowerMessages) and saved.flowerMessages.length === flowerMessages.length){
+  if(Array.isArray(saved.flowerMessages) && saved.flowerMessages.length === flowerMessages.length){
     flowerMessages = saved.flowerMessages;
   }
 
