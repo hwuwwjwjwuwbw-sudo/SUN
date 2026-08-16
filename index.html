@@ -864,7 +864,7 @@ audio{
       <span class="eyebrow">a tiny garden made for you</span>
 
       <h1>
-        For <span id="heroName">Jilliane</span>
+        For <span id="heroName">My Love</span>
       </h1>
 
       <p>
@@ -1135,10 +1135,10 @@ audio{
       <h2>yun lng boss.</h2>
 
       <p id="finalMessage" contenteditable="true">
-       I love you so much
+        If I could give you a whole field of flowers, I would.
       </p>
 
-      <div class="final-heart">Happy Monthsary!</div>
+      <div class="final-heart"></div>
 
       <button class="primary-btn" id="againBtn">
         Bloom everything again 🌷
@@ -1321,7 +1321,7 @@ function applySavedData(){
   if(saved.discoveryText) document.getElementById("discoveryText").textContent = saved.discoveryText;
   if(saved.finalMessage) document.getElementById("finalMessage").textContent = saved.finalMessage;
 
-  if(Array.isArray(saved.flowerMessages) && saved.flowerMessages.length === flowerMessages.length){
+  if(Array.isArray(saved.flowerMessages) and saved.flowerMessages.length === flowerMessages.length){
     flowerMessages = saved.flowerMessages;
   }
 
